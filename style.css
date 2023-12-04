@@ -19,6 +19,10 @@ header{
   justify-content: space-between;
 }
 
+.hamberger{
+  display: none;
+}
+
 .nav{
   text-align: right;
   display: flex;
@@ -303,4 +307,125 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+  
+  .main-mv{
+  background-image: url("img/code.png");
+}
+  
+  .pf-column{
+  width: 100%;
+  margin: 0 auto;
+}
+
+  .image-container{
+    width: 100%;
+  display: block;
+  justify-content: center;
+}
+  
+ 
+  
+  .img-box:nth-child(odd){
+    display: none;
+  }
+  
+  .img-box:nth-child(2){
+  margin: 0 auto;
+}
+
+.img-box:nth-child(n+4):nth-child(-n+6){
+  margin: 10px auto;
+}
+
+.feature-column{
+  width: 100%;
+}
+
+.strength-box{
+  display: block;
+}
+
+.strength-item{
+  margin: 0 auto;
+}
+
+.pro-column{
+  width: 100%;
+}
+
+.pro-contents{
+  display: block;
+}
+
+.ossann{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.introduction{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myName{
+  text-align: center;
+}
+
+.mySkills{
+  text-align: center;
+}
+
+.int-text{
+  text-align: center;
+}
+
+.contact-container{
+  display: block;
+  justify-content: center;
+}
+
+.address{
+  margin: 0 auto;
+}
+
+.sns{
+  margin: 0 auto;
+}
+
+.mail{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tel{
+  text-align: center;
+}
+
+.nav{
+  display: none;
+}
+
+.hamberger{
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  margin: 3px;
+}
+
+
+
+.menu-icon{
+  font-size: 40px;
+  margin: 0px;
+}
+
 }
